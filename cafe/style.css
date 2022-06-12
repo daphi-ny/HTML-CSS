@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Tiro+Devanagari+Marathi:ital@1&display=swap');
+
+body {
+    background-image: url("cafe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    align-items: center;
+    justify-content: space-around;
+      
+}
+
+.nav-item {
+    font-family: 'Tiro Devanagari Marathi ' 'serife';
+    font-weight: 400;
+    font-size: 20px;
+    color: #E8CECE;
+    line-height: 16px;
+    text-decoration: none;
+    
+}
+
+.conteudo {
+    text-align: center;
+    color: #E8CECE;
+    border-top: 0.4px solid #E8CECE ;
+}
+
+.t {
+    font-family: 'Tiro Devanagari Marathi' 'serife';
+    font-size: 60px;
+    margin-top: 80px;
+    height: 64px;
+    font-weight: 400;
+}
+
+.st {
+    font-family: 'Raleway';
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.botao {
+    font-family: 'Tiro Devanagari Marathi' 'serife';
+    font-weight: 400;
+    border: 1px solid #E8CECE;
+    color: #E8CECE;
+    box-sizing: 30px;
+    width: 160px;
+    height: 46px;
+    font-size: 17px;
+    margin-top: 80px;
+    background-color:  #d9d9d900;
+    
+}
